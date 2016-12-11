@@ -1,7 +1,7 @@
 #include <avr/pgmspace.h>
 
 #define NUM_WAVE_ENTRIES 200
-unsigned char wave_table[200] PROGMEM = 
+const unsigned char wave_table[200] PROGMEM = 
 {
 220,
 204,
