@@ -113,7 +113,7 @@ uint32_t LayeredEffects::Do() {
 			}
 			for (i = 0; i < light_count_; ++i) {
 				led_color = blend_colors(layer0_[i], layer1_[i]);
-			  g35_.set_color(i, led_color.intensity, led_color.color);
+				g35_.set_color(i, led_color.intensity, led_color.color);
 			}
 			if(millis() - _next_front_millis > 1000)
 			{

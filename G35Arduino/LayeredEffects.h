@@ -41,8 +41,8 @@ class LayeredEffects : public LightProgram {
 		};
 		struct snow_t {
 			uint8_t state;
-			float flakes_x[N_FLAKES];     // Q7.8 format
-			float flakes_y[N_FLAKES];      // Q7.8 format
+			float flakes_x[N_FLAKES];
+			float flakes_y[N_FLAKES];
 			uint8_t flakes_m[N_FLAKES];			 // Q1.7 format
 			uint8_t wind_velocity;					 // Q0.8 format
 			uint8_t snowiness;
